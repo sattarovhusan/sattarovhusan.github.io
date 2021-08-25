@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
+  <title>My Website</title>
+</head>
+
+<body>
+
+  <div class="intro">
+    <h1 class="logo-header">
+        <span class="logo">Greet</span><span class="logo">ings!</span>
+    </h1>
+  </div>
+
+
+  <!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#hero">
+            <h1 class="custom-logo">HS</h1>
+          </a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="#hero" data-after="Home">Home</a></li>
+            <li><a href="#about" data-after="About">About</a></li>
+            <li><a href="#projects" data-after="Projects">Projects</a></li>
+            <li><a href="#contact" data-after="Contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Header -->
+
+
+  <!-- Hero Section  -->
+  <section id="hero">
+    <div class="hero container">
+      <div>
+        <h1>Hello, <span></span></h1>
+        <h1>My Name is <span></span></h1>
+        <h1>Husan <span></span></h1>
+        <a href="#projects" type="button" class="cta">Portfolio</a>
+      </div>
+    </div>
+  </section>
+  <!-- End Hero Section  -->
+
+  <!-- About Section -->
+  <section id="about">
+  <div class="about container">
+    <div class="col-left">
+      <div class="about-img">
+        <img src="./img/husan.jpg" alt="img">
+      </div>
+    </div>
+    <div class="col-right">
+      <h1 class="section-title">About <span>me</span></h1>
+      <h2>Developer</h2>
+      <p>My name is Husan Sattarov. I am currently a second year student at the University of Waterloo studying Honours Mathematics! 
+        Mathematics and programming have been a passion of mine for some time and I aim to use these tools to help contribute to something 
+        that will benefit our society for years to come! In addition, I would consider myself a very open-minded person when it comes to 
+        ideas and learning opportunities because I firmly believe that you can always learn more!</p>
+      <a href="resume.pdf" target= "_blank" class="cta">Download Resume</a>
+    </div>
+  </div>
+  </section>
+  <!-- End About Section -->
+  
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="projects container">
+      <div class="projects-header">
+        <h1 class="section-title">Recent <span>Projects</span></h1>
+        <h2></h2>
+      </div>
+      <div class="all-projects">
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Folio</h1>
+            <h2>Online Portfolio Builder</h2>
+            <p>This is a website that allows users to create their own portfolios. In addition, it contains a user-authentication system that 
+              utilizes a database to store user information. This project has allowed me to collaborate with 2 of my friends to learn a lot 
+              about databases and how they function. In addition, it allowed to learn the basics about various new technologies such as 
+              Express and Mongoose.</p>
+              <p>Code was written in: HTML/CSS, EJS, Express, Mongoose, and Node</p>
+              <a class= "link" href="https://foliofirst.herokuapp.com/" target= "_blank">Demo</a>
+          </div>
+          <div class="project-img">
+            <img src="./img/portfolio.PNG" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Sorting Visualizer</h1>
+            <h2>Visualizing Various Sorting Algorithms</h2>
+            <p>This is an application that allows you to visualize how various sorting algorithms work. This project has taught me a lot about 
+              how these sorting algorithms work and hopefully this visualizer can help others understand how these algorithms work!</p>
+            <p>Code was written in: HTML, CSS, React.JS</p>
+            <a class= "link" href="https://github.com/sattarovhusan/Sorting-Visualizer" target= "_blank">Source Code</a>
+          </div>
+          <div class="project-img">
+            <img src="./img/sorting.PNG" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Sudoku Solver</h1>
+            <h2>Solves a Sudoku Puzzle If A Solution Exists.</h2>
+            <p>This is a sudoku solver that, given a valid board, finds a solution to it. To do this, it uses a backtracking algorithm. 
+              This project allowed me to learn a new library that I can use to create graphics for the future. It has also taught me about the 
+              nature of backtracking algorithms and how they are useful.</p>
+            <p>Code was written in: Python</p>
+            <a class= "link" href="https://github.com/sattarovhusan/Sudoku-Solver" target= "_blank">Source Code</a>
+          </div>
+          <div class="project-img">
+            <img src="./img/sudoku1.jpg" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Blackjack</h1>
+            <h2>My Version Of The Famous Game Blackjack</h2>
+            <p>This is my version of the famous card game "Blackjack"! This project taught me a lot about planning and the process of 
+              creating a product. This is because I had to test every little piece of the game to ensure that everything works as expected.</p>
+            <p>Code was written in: Python</p>
+            <a class= "link" href="https://github.com/sattarovhusan/Blackjack" target= "_blank">Source Code</a>
+          </div>
+          <div class="project-img">
+            <img src="./img/blackjack1.png" alt="img">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Projects Section -->
+
+ 
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="contact container">
+      <div>
+        <h1 class="section-title">Contact <span>info</span></h1>
+      </div>
+      <div class="contact-items">
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png" /></div>
+          <div class="contact-info">
+            <h1>Phone</h1>
+            <h2>+1 647 890 2404</h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png" /></div>
+          <div class="contact-info">
+            <h1>Email</h1>
+            <h2>sattarovhusan@gmail.com</h2>
+            <h2>ksattaro@uwaterloo.ca</h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/linkedin.png" /></div>
+          <div class="contact-info">
+            <h1>LinkedIn</h1>
+            <a class= "link" href="https://www.linkedin.com/in/sattarovhusan/" target= "_blank">Husan Sattarov</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Contact Section -->
+
+  <!-- Footer -->
+  <section id="footer">
+    <div class="footer container">
+      <div class="brand">
+        <h1><span>H</span>usan <span>S</span>attarov</h1>
+      </div>
+      <div class="social-icon">
+        <div class="social-item">
+          <a href="https://www.facebook.com/husan.sattarov.1"><img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png" /></a>
+        </div>
+        <div class="social-item">
+          <a href="https://github.com/sattarovhusan"><img src="https://img.icons8.com/bubbles/100/000000/github.png" /></a>
+        </div>
+      </div>
+      <p>Copyright © 2021 Husan. All rights reserved</p>
+    </div>
+  </section>
+  <!-- End Footer -->
+  <script src="./app.js"></script>
+</body>
+
+</html>
